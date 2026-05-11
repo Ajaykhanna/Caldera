@@ -1,0 +1,22 @@
+! MD B3LYP def2-SVP DEFGRID2 TightSCF
+
+%pal nprocs 4 end
+
+%maxcore 1024
+
+%md
+  PrintLevel Medium
+  Randomize 1127
+  Timestep 0.500_fs
+  Initvel 300.0_K
+  Thermostat NHC 300.0_K Timecon 10.0_fs
+  SCFLog Append
+  Dump Position Stride 1 Filename "trajectory.xyz"
+  Run 200
+end
+
+* xyz 0 1
+O   0.000000000  0.000000000  0.000000000
+H   0.000000000  0.757160000  0.586260000
+H   0.000000000 -0.757160000  0.586260000
+*

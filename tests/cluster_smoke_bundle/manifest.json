@@ -1,0 +1,32 @@
+[
+  {
+    "bundle_name": "01_static_energy",
+    "source_golden": "static_energy.inp",
+    "description": "Ground-state static energy"
+  },
+  {
+    "bundle_name": "02_optimization",
+    "source_golden": "optimization.inp",
+    "description": "Ground-state optimization"
+  },
+  {
+    "bundle_name": "03_frequency",
+    "source_golden": "frequency.inp",
+    "description": "Ground-state frequency"
+  },
+  {
+    "bundle_name": "04_excited_nacme",
+    "source_golden": "excited_nacme.inp",
+    "description": "Excited-state TDDFT/CIS with NACME TRUE"
+  },
+  {
+    "bundle_name": "05_excited_frequency_nacme",
+    "source_golden": "excited_freq_nacme.inp",
+    "description": "Excited-state frequency with NACME option"
+  },
+  {
+    "bundle_name": "06_ground_md",
+    "source_golden": "ground_md_template.inp",
+    "description": "Ground-state molecular dynamics template"
+  }
+]

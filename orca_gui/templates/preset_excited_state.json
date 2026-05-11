@@ -1,0 +1,17 @@
+{
+  "preset_name": "Excited State",
+  "calculation_mode": "static",
+  "input_design": "simple",
+  "static_job_type": "energy",
+  "state_type": "excited",
+  "method": "PBE0",
+  "basis_set": "def2-SVP",
+  "scf_convergence": "TightSCF",
+  "grid_keyword": "DEFGRID2",
+  "state_average_nroots": 5,
+  "excited_iroot": 2,
+  "excited_nacme": false,
+  "excited_etf": false,
+  "solvation_enabled": false,
+  "output_filename": "excited_state.inp"
+}

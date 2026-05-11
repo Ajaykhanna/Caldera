@@ -1,0 +1,12 @@
+{
+  "preset_name": "Frequency",
+  "calculation_mode": "static",
+  "static_job_type": "freq",
+  "state_type": "ground",
+  "method": "B3LYP",
+  "basis_set": "def2-TZVP",
+  "scf_convergence": "TightSCF",
+  "grid_keyword": "DEFGRID2",
+  "solvation_enabled": false,
+  "output_filename": "frequency.inp"
+}

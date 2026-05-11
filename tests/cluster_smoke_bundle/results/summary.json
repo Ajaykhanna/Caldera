@@ -1,0 +1,116 @@
+[
+  {
+    "case": "01_static_energy",
+    "input_file": "01_static_energy.inp",
+    "returncode": 0,
+    "duration_s": 9.731,
+    "generated_files": [
+      "01_static_energy.bibtex",
+      "01_static_energy.densities",
+      "01_static_energy.densitiesinfo",
+      "01_static_energy.gbw",
+      "01_static_energy.inp",
+      "01_static_energy.out",
+      "01_static_energy.property.txt",
+      "01_static_energy.stderr.log"
+    ]
+  },
+  {
+    "case": "02_optimization",
+    "input_file": "02_optimization.inp",
+    "returncode": 0,
+    "duration_s": 21.581,
+    "generated_files": [
+      "02_optimization.bibtex",
+      "02_optimization.densities",
+      "02_optimization.densitiesinfo",
+      "02_optimization.engrad",
+      "02_optimization.gbw",
+      "02_optimization.inp",
+      "02_optimization.opt",
+      "02_optimization.out",
+      "02_optimization.property.txt",
+      "02_optimization.stderr.log",
+      "02_optimization.xyz",
+      "02_optimization_trj.xyz"
+    ]
+  },
+  {
+    "case": "03_frequency",
+    "input_file": "03_frequency.inp",
+    "returncode": 0,
+    "duration_s": 9.278,
+    "generated_files": [
+      "03_frequency.bibtex",
+      "03_frequency.densities",
+      "03_frequency.densitiesinfo",
+      "03_frequency.gbw",
+      "03_frequency.hess",
+      "03_frequency.inp",
+      "03_frequency.out",
+      "03_frequency.property.txt",
+      "03_frequency.stderr.log"
+    ]
+  },
+  {
+    "case": "04_excited_nacme",
+    "input_file": "04_excited_nacme.inp",
+    "returncode": 0,
+    "duration_s": 7.918,
+    "generated_files": [
+      "04_excited_nacme.bibtex",
+      "04_excited_nacme.cis",
+      "04_excited_nacme.densities",
+      "04_excited_nacme.densitiesinfo",
+      "04_excited_nacme.engrad",
+      "04_excited_nacme.gbw",
+      "04_excited_nacme.inp",
+      "04_excited_nacme.out",
+      "04_excited_nacme.property.txt",
+      "04_excited_nacme.stderr.log"
+    ]
+  },
+  {
+    "case": "05_excited_frequency_nacme",
+    "input_file": "05_excited_frequency_nacme.inp",
+    "returncode": 0,
+    "duration_s": 39.131,
+    "generated_files": [
+      "05_excited_frequency_nacme.bibtex",
+      "05_excited_frequency_nacme.cis",
+      "05_excited_frequency_nacme.densities",
+      "05_excited_frequency_nacme.densitiesinfo",
+      "05_excited_frequency_nacme.engrad",
+      "05_excited_frequency_nacme.gbw",
+      "05_excited_frequency_nacme.hess",
+      "05_excited_frequency_nacme.inp",
+      "05_excited_frequency_nacme.out",
+      "05_excited_frequency_nacme.property.txt",
+      "05_excited_frequency_nacme.stderr.log"
+    ]
+  },
+  {
+    "case": "06_ground_md",
+    "input_file": "06_ground_md.inp",
+    "returncode": 0,
+    "duration_s": 763.05,
+    "generated_files": [
+      "06_ground_md-md-ener.csv",
+      "06_ground_md.bibtex",
+      "06_ground_md.densities",
+      "06_ground_md.densitiesinfo",
+      "06_ground_md.gbw",
+      "06_ground_md.grad.log",
+      "06_ground_md.inp",
+      "06_ground_md.int.log",
+      "06_ground_md.md.log",
+      "06_ground_md.mdrestart",
+      "06_ground_md.out",
+      "06_ground_md.property.txt",
+      "06_ground_md.scf.log",
+      "06_ground_md.stderr.log",
+      "tempout.txt",
+      "trajectory.xyz"
+    ]
+  }
+]

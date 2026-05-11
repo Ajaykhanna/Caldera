@@ -1,0 +1,18 @@
+! PBE0 def2-SVP DEFGRID2 TightSCF
+
+%pal nprocs 4 end
+
+%maxcore 1024
+
+%tddft
+  nroots 5
+  iroot 2
+  nacme true
+  etf true
+end
+
+* xyz 0 1
+O   0.000000000  0.000000000  0.000000000
+H   0.000000000  0.757160000  0.586260000
+H   0.000000000 -0.757160000  0.586260000
+*
