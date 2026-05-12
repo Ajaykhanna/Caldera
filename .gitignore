@@ -30,3 +30,8 @@ tests/cluster_smoke_bundle/results/**/tempout.txt
 tests/cluster_smoke_bundle/results/**/*_trj.xyz
 tests/cluster_smoke_bundle/results/**/trajectory.xyz
 tests/cluster_smoke_bundle/results/**/*.xyz
+.orca_6.1_may10_2026.pdf
+.PLAN.md
+.PLAN_phase_0_4.md
+.SKILL.md
+.Unified_Blueprint.md
