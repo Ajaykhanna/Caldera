@@ -8,6 +8,14 @@ OrcaFlow is a Streamlit-based GUI package for building ORCA quantum chemistry in
 
 The project is built around one core correctness rule: GUI-controlled syntax must come from the ORCA 6.1 manual excerpt corpus in `docs/MANUAL_EXCERPTS.md`. The result is a package that aims to be practical for day-to-day setup work while staying anchored to verified ORCA syntax instead of guesswork.
 
+## Live App
+
+Try the hosted Streamlit app here:
+
+- [https://caldera.streamlit.app/](https://caldera.streamlit.app/)
+
+If you just want to use the GUI, visit the live website above. Local installation is only needed if you want to run or modify the app yourself.
+
 ## What It Is
 
 - A Python package with a Streamlit frontend
@@ -87,7 +95,7 @@ python -m pip install .
 ### Run with Streamlit directly
 
 ```powershell
-python -m streamlit run orca_gui/app.py
+streamlit run streamlit_app.py
 ```
 
 ### Run through the package entry point
